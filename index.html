@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    --> 
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/ae93150447.js" crossorigin="anonymous"></script>
+    <title>Sprint_2</title>
+</head>
+<body>
+     <div class="container-fluid bg-light test">   
+        <div class="row header_main">  
+            <nav class="navbar navbar-light navbar-expand-lg">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>    
+                </button>                
+                <div class="collapse navbar-collapse " id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Perfumes</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Regalos</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header_logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="header_conection">
+                <button class="header_btn btn " data-toggle="modal" data-target="#login">Join</button>
+                <button class="header_btn btn " data-toggle="modal" data-target="#register">Register</button>
+            </div>
+
+            <div class="modal fade" id="login">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>&times;</span>
+                            </button>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre">
+                            <label for="Password">Pass:</label>
+                            <input type="password" id="pass">
+                            <button class="btn btn_in">Log in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="register">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>&times;</span>
+                            </button>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre">
+                            <label for="Password">Pass:</label>
+                            <input type="password" id="pass">
+                            <button class="btn btn_in">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+<!-- Slider -->
+<div class="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+        <li data-target="#slides" data-slide-to="3"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/marcas/9. Ferragamo.jpg" alt="Ferragamo">
+        </div>
+        <div class="carousel-item">
+            <img src="img/marcas/8. CK.jpg" alt="ck">
+        </div>
+        <div class="carousel-item">
+            <img src="img/marcas/7. Paco Rabbane.jpg" alt="Paco_Rabanne">
+        </div>
+        <div class="carousel-item">
+            <img src="img/marcas/5. Giorgio Armani.jpg" alt="Armani">
+        </div>
+    </div>
+</div>
+<!-- Main -->
+<div class="container-fluid padding">
+    <div class="row text-center padding article_card">
+        <div class="col-xs-12 col-sm-6 col-md-4 article">
+            <img class="card-img-top" src="img/marcas/1. Hugo Boss.jpg" alt="hugo">
+            <div class="card-body">
+                <h4 class="card-title">Hugo</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="btn btn-outline-secondary">Click</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 article">
+            <img class="card-img-top" src="img/marcas/10. Chanel.jpg" alt="Bleu">
+            <div class="card-body">
+                <h4 class="card-title">Bleu</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="btn btn-outline-secondary">Click</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 article">
+            <img class="card-img-top" src="img/marcas/14. Acqua di Parma.jpg" alt="aqua">
+            <div class="card-body">
+                <h4 class="card-title">Aqua</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="btn btn-outline-secondary">Click</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 article">
+            <img class="card-img-top" src="img/marcas/5. Giorgio Armani.jpg" alt="Acqua">
+            <div class="card-body">
+                <h4 class="card-title">Acqua</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="btn btn-outline-secondary">Click</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 article">
+            <img class="card-img-top" src="img/marcas/3. El Ganso.jpg" alt="ganso">
+            <div class="card-body">
+                <h4 class="card-title">Ganso</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="btn btn-outline-secondary">Click</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 article">
+            <img class="card-img-top" src="img/marcas/15. Jean Paul Gaultier.jpg" alt="gaultier">
+            <div class="card-body">
+                <h4 class="card-title">Gaultier</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="btn btn-outline-secondary">Click</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>email@mail.com</p>
+                <p>93-213213123<p>
+                
+            </div>
+            <div class="col-md-4">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+               
+            </div>
+            <div class="col-md-4">
+                <p>Lorem ipsum:</p>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="rights text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, totam.</p>
+</footer>
+
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>

@@ -1,0 +1,8 @@
+X -Preparat per a doble càrrega, amb una versió comentada.
+2 -Presenta tots els elements demanats i la versió "hamburguesa" NO amaga login/registre
+3 -Login i registre tenen les seves pròpies finestres modals.
+4 -L'Slider funciona perfectament i presenta 4 imatges adaptades.
+5 -És responsive
+6 -Ha canviat tots els colors mantenint les classes originals de Bootstrap
+7 -Es mostren tots els colors canviats amb el nom de classe original
+8 -Plantilla adaptada completament
